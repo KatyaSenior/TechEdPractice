@@ -1,9 +1,7 @@
-const foods = ["pizza", "chocolate", "ice cream", "cheese"];
-foods.forEach(function (food, index) {
-  console.log(index, food);
-});
+const car = {
+  make: "Honda",
+  model: "Civic",
+  colour: "black",
+};
 
-const favouriteNumbers = [4, 8, 15, 16, 23, 42, Infinity];
-for (let number of favouriteNumbers) {
-  console.log(number);
-}
+console.log(`I drive my dad's ${car.colour} ${car.make} ${car.model}.`);
